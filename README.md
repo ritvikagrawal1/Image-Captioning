@@ -10,7 +10,7 @@ The Convolutional Neural Network(CNN) can be thought of as an encoder. The input
 ## Decoder
 The Decoder is a Recurrent Neural Network(RNN) which does language modelling up to the word level. The first time step receives the encoded output from the encoder and also the <START> vector.
 
-Dataset used was <a href="http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html">Flickr8k dataset</a>.
+Dataset used was <a href="https://www.kaggle.com/hsankesara/flickr-image-dataset">Flickr30k dataset</a>.
 
 # Model Architecture
 ![input](https://miro.medium.com/max/1000/1*VGzSnYhyhpAAmGkSyOfeig.png)
